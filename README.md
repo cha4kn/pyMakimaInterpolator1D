@@ -1,5 +1,7 @@
 # pyMakimaInterpolator1D
 
+Python Modified Akima Interpolation Implementation in 1D
+
 Overview
 ===================================================
 This repo contains a Python implementation of the *Modified Akima Interpolation* method described here: https://blogs.mathworks.com/cleve/2019/04/29/makima-piecewise-cubic-interpolation/
