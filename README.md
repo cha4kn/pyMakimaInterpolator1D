@@ -13,7 +13,8 @@ Please see the LICENSE file before usage.
 Performance
 ---------------------------------------------------
 The code has been extensively evaluated against the native Matlab implementation for filling out missing values inside large amounts of data (~10 GB). 
-The speed was in my recollection up to par with or even faster than the Matlab version. This is made possible by utilizing Numba just-in-time compilation. The correctness of the interpolation is 100% compared with Matlab.
+Sadly, this version is slower than the Matlab version. This is mainly due to Matlab invoking C code while Python is inherently slow. I have tried to maximize the speed by invoking Numba just-in-time compilation.
+The correctness of the interpolation is however 100% compared with Matlab.
 
 How To Use
 ===================================================
